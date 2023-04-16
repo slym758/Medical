@@ -1,0 +1,77 @@
+.Product_home {
+  padding: 25px;
+  display: grid;
+  gap: 25px;
+
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.Product_home_wrapper {
+  width: 100%;
+  margin-top: 55px;
+  transition: 0.6s;
+  border: rgb(233, 227, 227) solid 3px;
+  border-radius: 25px;
+}
+
+.Product_home_wrapper:hover {
+  border: #0b6c8d solid 3px;
+  transition: 0.6s;
+}
+
+.Product_home_Image {
+  margin-bottom: -15px;
+}
+
+.Product_home_Image img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 100%;
+  width: 100%;
+}
+
+.Product_home_content {
+  margin-top: -15px;
+  background-color: rgb(253, 253, 253);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.PHcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PHcontent .PHcatagory {
+  margin-top: 15px;
+  font-size: 16px;
+  color: rgb(99, 106, 112);
+}
+
+.PHcontent .PHname a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+}
+
+.PHprice {
+  margin-top: 15px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1bb5e9;
+}
+
+.PHbutton {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.PHbutton button {
+  width: 150px;
+  border-radius: 25px;
+}
+.PHbutton button:hover {
+  background-color: #10499e;
+}

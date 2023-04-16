@@ -1,0 +1,139 @@
+.logo {
+  height: 60px;
+}
+.nav_menu {
+  padding: 15px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.nav_menu .nav_item {
+  margin-right: 15px;
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  transition: 0.6s;
+}
+
+.nav_menu .nav_item:hover {
+  color: rgb(32, 127, 204);
+  transition: 0.6s;
+}
+
+.nav_right .nav_item_right {
+  font-size: 20px;
+  color: rgb(32, 127, 204);
+}
+
+.nav_right .nav_item_right i {
+  font-size: 35px;
+}
+
+/* Card */
+/* ----------------------------------------------- */
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_content {
+  padding: 15px 0;
+  text-align: center;
+  background: url(./assets/card.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #003242;
+  font-family: "Titillium Web", sans-serif;
+  line-height: 50px;
+  font-size: 45px;
+}
+
+.title_information p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
+
+.card_content {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+
+.card_box {
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #1293be;
+  width: 25%;
+  margin-bottom: 35px;
+  transition: 0.6s;
+}
+
+.card_information h1 {
+  color: #003242;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  font-size: 25px;
+  transition: 0.6s;
+}
+
+.card_information p {
+  text-align: center;
+  padding: 25px;
+  font-size: 19px;
+}
+
+.card_icon {
+  color: #0b6c8d;
+  transition: 0.6s;
+  font-size: 85px;
+}
+
+.card_box:hover {
+  box-shadow: 0 0 40px 0px #0b6c8d;
+  transition: 0.6s;
+}
+
+.card_icon:hover {
+  transition: 0.6s;
+  color: #adb817;
+}
+
+.icon-remove {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-remove .tab_icon {
+  width: 20%;
+}
+
+.tab {
+  margin-top: 55px;
+}
+.nav-justified .nav-item {
+  width: 2000px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.nav-tabs .nav-link.active {
+  border: rgb(255, 255, 255) solid 2px !important;
+  background-color: #79d4f3 !important;
+  color: rgb(0, 0, 0) !important;
+}
